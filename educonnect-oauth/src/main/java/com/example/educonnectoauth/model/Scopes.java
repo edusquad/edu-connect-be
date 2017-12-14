@@ -9,7 +9,7 @@ public enum Scopes {
 
     private String scopeValue;
 
-    private Scopes(String scopeValue) {
+    Scopes(String scopeValue) {
         this.scopeValue = scopeValue;
     }
 

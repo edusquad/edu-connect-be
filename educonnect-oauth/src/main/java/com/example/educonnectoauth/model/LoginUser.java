@@ -17,7 +17,7 @@ public class LoginUser extends User {
     }
 
     public LoginUser(Account account) {
-        super(null, null, null);
+        super(account.getName(), account.getPassword(), account.getScopes());
     }
 
 }
